@@ -1,0 +1,5 @@
+NetPulse is a lightweight real-time network monitoring tool built with Python and Streamlit. 
+It continuously pings a list of IP addresses or hostnames, logs latency and status, and displays the results in a live web dashboard. The dashboard features an auto-refreshing table of recent results, a line chart for latency trends, and a breakdown of uptime percentages per device. Users can also export logs as a CSV file for offline analysis. 
+The project is structured with a main monitor script (`main.py`), a ping function module (`pinger.py`), a Streamlit dashboard (`dashboard.py`), and two simple config/log files (`devices.txt` and `logs.txt`). Installation is straightforward: clone the repository, install dependencies from `requirements.txt`, run `main.py` to start monitoring, and launch the dashboard with `streamlit run dashboard.py`. 
+NetPulse is ideal for students and professionals looking to showcase practical networking and Python development skills. 
+Licensed under MIT and free to use or modify.
